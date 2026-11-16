@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | NextGen IT Solutions</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 100px 0;
+        }
+
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 12px;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            background-color: #e0e7ff;
+            color: #4f46e5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="bi bi-cpu-fill me-2"></i>NextGen<span class="text-white">IT</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-lg-3 px-4"
+                            href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <span class="badge bg-primary mb-3 px-3 py-2">Smart Digital Solutions</span>
+                    <h1 class="display-4 fw-bold mb-4">Transforming Your Ideas Into Powerful Digital Reality</h1>
+                    <p class="lead text-light opacity-75 mb-4">
+                        We build modern websites, scalable software, and result-driven digital strategies to help your
+                        business grow faster.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="contact.html" class="btn btn-primary btn-lg px-4">Get a Free Quote</a>
+                        <a href="portfolio.html" class="btn btn-outline-light btn-lg px-4">View Our Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                    <div class="p-4 bg-white bg-opacity-10 rounded-4 border border-light border-opacity-25">
+                        <i class="bi bi-laptop display-1 text-info"></i>
+                        <h4 class="mt-3">100% Custom & Responsive</h4>
+                        <p class="small text-light opacity-75 mb-0">Web • Mobile • Cloud • UI/UX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-4 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-3 mb-md-0">
+                    <h2 class="fw-bold mb-0">120+</h2>
+                    <p class="mb-0 small">Projects Completed</p>
+                </div>
+                <div class="col-md-3 col-6 mb-3 mb-md-0">
+                    <h2 class="fw-bold mb-0">85+</h2>
+                    <p class="mb-0 small">Happy Clients</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="fw-bold mb-0">15+</h2>
+                    <p class="mb-0 small">IT Specialists</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="fw-bold mb-0">24/7</h2>
+                    <p class="mb-0 small">Dedicated Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Preview -->
+    <section class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">What We Do</h6>
+                <h2 class="fw-bold">Our Core IT Services</h2>
+                <p class="text-muted">Tailored technology solutions designed for modern businesses</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card h-100 p-4 shadow-sm">
+                        <div class="icon-box"><i class="bi bi-code-slash"></i></div>
+                        <h4 class="fw-bold">Web Development</h4>
+                        <p class="text-muted">Custom business websites, e-commerce platforms, and full-stack web
+                            applications.</p>
+                        <a href="services.html" class="text-decoration-none fw-semibold mt-auto">Learn More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 p-4 shadow-sm">
+                        <div class="icon-box"><i class="bi bi-phone"></i></div>
+                        <h4 class="fw-bold">Mobile App Development</h4>
+                        <p class="text-muted">User-friendly Android and iOS applications built for performance and
+                            scalability.</p>
+                        <a href="services.html" class="text-decoration-none fw-semibold mt-auto">Learn More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 p-4 shadow-sm">
+                        <div class="icon-box"><i class="bi bi-graph-up-arrow"></i></div>
+                        <h4 class="fw-bold">Digital Marketing & SEO</h4>
+                        <p class="text-muted">Data-driven SEO, social media marketing, and branding to boost your online
+                            reach.</p>
+                        <a href="services.html" class="text-decoration-none fw-semibold mt-auto">Learn More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-dark text-white text-center">
+        <div class="container py-3">
+            <h2 class="fw-bold mb-3">Ready to Start Your Next IT Project?</h2>
+            <p class="text-light opacity-75 mb-4">Let’s discuss how we can help automate and scale your business.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg px-5">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-primary mb-3">NextGen<span class="text-white">IT</span></h5>
+                    <p class="small text-secondary">Providing innovative web, software, and IT consulting solutions for
+                        startups and enterprises.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none">About Us</a>
+                        </li>
+                        <li class="mb-2"><a href="services.html"
+                                class="text-secondary text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="portfolio.html"
+                                class="text-secondary text-decoration-none">Portfolio</a></li>
+                        <li class="mb-2"><a href="pricing.html" class="text-secondary text-decoration-none">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="small text-secondary mb-1"><i class="bi bi-geo-alt me-2"></i>Dhaka, Bangladesh</p>
+                    <p class="small text-secondary mb-1"><i class="bi bi-envelope me-2"></i>info@nextgenit.com</p>
+                    <p class="small text-secondary"><i class="bi bi-telephone me-2"></i>+880 1700-000000</p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center small text-secondary">
+                &copy; 2026 Zahanara Khatun. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

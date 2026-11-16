@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | NextGen IT Solutions</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .page-header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 70px 0;
+        }
+        .service-box {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+        }
+        .service-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+            border-color: #4f46e5;
+        }
+        .icon-circle {
+            width: 60px;
+            height: 60px;
+            background-color: #e0e7ff;
+            color: #4f46e5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="bi bi-cpu-fill me-2"></i>NextGen<span class="text-white">IT</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-lg-3 px-4" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header text-center">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Our IT Services</h1>
+            <p class="lead text-light opacity-75 mb-0">End-to-end technology solutions tailored to accelerate your business growth.</p>
+        </div>
+    </section>
+
+    <!-- All Services Grid -->
+    <section class="py-5">
+        <div class="container py-3">
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-box h-100 p-4">
+                        <div class="icon-circle"><i class="bi bi-globe"></i></div>
+                        <h4 class="fw-bold">Custom Web Development</h4>
+                        <p class="text-muted">Responsive, fast, and SEO-friendly corporate websites, portals, and full-stack web applications using modern frameworks.</p>
+                        <ul class="list-unstyled small text-muted mb-4">
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Business & Corporate Sites</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Custom Admin Dashboards</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>REST API Integration</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm mt-auto">Request Service</a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-box h-100 p-4">
+                        <div class="icon-circle"><i class="bi bi-cart-check"></i></div>
+                        <h4 class="fw-bold">E-Commerce Solutions</h4>
+                        <p class="text-muted">Complete online stores with product management, inventory tracking, and local/international payment gateway integration.</p>
+                        <ul class="list-unstyled small text-muted mb-4">
+                            <li><i class="bi bi-check2 text-primary me-2"></i>bKash, Nagad & Card Payments</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Order & Inventory Management</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Mobile-First Checkout</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm mt-auto">Request Service</a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-box h-100 p-4">
+                        <div class="icon-circle"><i class="bi bi-phone"></i></div>
+                        <h4 class="fw-bold">Mobile App Development</h4>
+                        <p class="text-muted">Cross-platform and native Android & iOS mobile applications designed for seamless user engagement.</p>
+                        <ul class="list-unstyled small text-muted mb-4">
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Android & iOS Apps</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Push Notifications & Analytics</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Play Store & App Store Launch</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm mt-auto">Request Service</a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-box h-100 p-4">
+                        <div class="icon-circle"><i class="bi bi-palette"></i></div>
+                        <h4 class="fw-bold">UI/UX & Web Design</h4>
+                        <p class="text-muted">Clean, intuitive, and user-centered interface designs that enhance customer experience and brand identity.</p>
+                        <ul class="list-unstyled small text-muted mb-4">
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Wireframing & Prototyping</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Modern Landing Page Templates</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Brand Identity & Graphics</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm mt-auto">Request Service</a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-box h-100 p-4">
+                        <div class="icon-circle"><i class="bi bi-megaphone"></i></div>
+                        <h4 class="fw-bold">Digital Marketing & SEO</h4>
+                        <p class="text-muted">Targeted online marketing campaigns and search engine optimization to drive traffic and generate leads.</p>
+                        <ul class="list-unstyled small text-muted mb-4">
+                            <li><i class="bi bi-check2 text-primary me-2"></i>On-Page & Technical SEO</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Facebook & Google Ads</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Social Media Management</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm mt-auto">Request Service</a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-box h-100 p-4">
+                        <div class="icon-circle"><i class="bi bi-headset"></i></div>
+                        <h4 class="fw-bold">IT Consulting & Support</h4>
+                        <p class="text-muted">Ongoing website maintenance, cloud hosting setup, security updates, and technical support for your business.</p>
+                        <ul class="list-unstyled small text-muted mb-4">
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Domain, Hosting & SSL Setup</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>Speed & Security Optimization</li>
+                            <li><i class="bi bi-check2 text-primary me-2"></i>24/7 Technical Maintenance</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm mt-auto">Request Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">How We Work</h6>
+                <h2 class="fw-bold">Our 4-Step Delivery Process</h2>
+            </div>
+            <div class="row g-4 text-center">
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <span class="badge bg-primary rounded-pill fs-6 px-3 py-2 mb-3">Step 01</span>
+                        <h5 class="fw-bold">Discovery & Planning</h5>
+                        <p class="text-muted small">Understanding your requirements, goals, and target audience.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <span class="badge bg-primary rounded-pill fs-6 px-3 py-2 mb-3">Step 02</span>
+                        <h5 class="fw-bold">Design & Prototype</h5>
+                        <p class="text-muted small">Crafting clean layouts and user-friendly interface mockups.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <span class="badge bg-primary rounded-pill fs-6 px-3 py-2 mb-3">Step 03</span>
+                        <h5 class="fw-bold">Development & Testing</h5>
+                        <p class="text-muted small">Writing clean code, integrating features, and quality assurance.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <span class="badge bg-primary rounded-pill fs-6 px-3 py-2 mb-3">Step 04</span>
+                        <h5 class="fw-bold">Launch & Support</h5>
+                        <p class="text-muted small">Deploying your project live with continuous maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-primary mb-3">NextGen<span class="text-white">IT</span></h5>
+                    <p class="small text-secondary">Providing innovative web, software, and IT consulting solutions for startups and enterprises.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="portfolio.html" class="text-secondary text-decoration-none">Portfolio</a></li>
+                        <li class="mb-2"><a href="pricing.html" class="text-secondary text-decoration-none">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="small text-secondary mb-1"><i class="bi bi-geo-alt me-2"></i>Dhaka, Bangladesh</p>
+                    <p class="small text-secondary mb-1"><i class="bi bi-envelope me-2"></i>info@nextgenit.com</p>
+                    <p class="small text-secondary"><i class="bi bi-telephone me-2"></i>+880 1700-000000</p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center small text-secondary">
+                &copy; 2026 Zahanara Khatun. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
