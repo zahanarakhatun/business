@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,13 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+
         .page-header {
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: white;
             padding: 70px 0;
         }
+
         .contact-icon {
             width: 50px;
             height: 50px;
@@ -31,6 +34,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Navbar -->
@@ -49,7 +53,8 @@
                     <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-lg-3 px-4 active" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-lg-3 px-4 active"
+                            href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -59,7 +64,8 @@
     <section class="page-header text-center">
         <div class="container">
             <h1 class="display-5 fw-bold">Get In Touch</h1>
-            <p class="lead text-light opacity-75 mb-0">Have a project in mind? Let’s talk and build something great together.</p>
+            <p class="lead text-light opacity-75 mb-0">Have a project in mind? Let’s talk and build something great
+                together.</p>
         </div>
     </section>
 
@@ -70,7 +76,8 @@
                 <!-- Contact Info -->
                 <div class="col-lg-5">
                     <h3 class="fw-bold mb-3">Contact Information</h3>
-                    <p class="text-muted mb-4">Fill out the form or reach us directly via phone, email, or WhatsApp. Our team responds within 24 hours.</p>
+                    <p class="text-muted mb-4">Fill out the form or reach us directly via phone, email, or WhatsApp. Our
+                        team responds within 24 hours.</p>
 
                     <div class="d-flex align-items-start mb-4">
                         <div class="contact-icon me-3"><i class="bi bi-geo-alt-fill"></i></div>
@@ -84,7 +91,7 @@
                         <div class="contact-icon me-3"><i class="bi bi-telephone-fill"></i></div>
                         <div>
                             <h6 class="fw-bold mb-1">Phone & WhatsApp</h6>
-                            <p class="text-muted small mb-0">+880 1922713440</p>
+                            <p class="text-muted small mb-0">+880 1700-000000</p>
                         </div>
                     </div>
 
@@ -92,7 +99,7 @@
                         <div class="contact-icon me-3"><i class="bi bi-envelope-fill"></i></div>
                         <div>
                             <h6 class="fw-bold mb-1">Email Address</h6>
-                            <p class="text-muted small mb-0">khatunzahanara978@gmail.com</p>
+                            <p class="text-muted small mb-0">info@nextgenit.com</p>
                         </div>
                     </div>
 
@@ -112,11 +119,114 @@
 
                         <!-- Success Alert (Hidden by default) -->
                         <div id="formAlert" class="alert alert-success d-none" role="alert">
-                            <i class="bi bi-check-circle-fill me-2"></i>Thank you! Your message has been received. We will contact you shortly.
+                            <i class="bi bi-check-circle-fill me-2"></i>Thank you! Your message has been received. We
+                            will contact you shortly.
                         </div>
 
                         <form id="contactForm">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <label class="form-label fw-semibold">Full Name *</label>
-                                    <input type="text" class="
+                                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Email Address *</label>
+                                    <input type="email" class="form-control" placeholder="name@example.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="+880 1XXX-XXXXXX">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Service Needed</label>
+                                    <select class="form-select">
+                                        <option selected>Web Development</option>
+                                        <option>E-Commerce Solution</option>
+                                        <option>Mobile App Development</option>
+                                        <option>UI/UX & Web Design</option>
+                                        <option>Digital Marketing & SEO</option>
+                                        <option>IT Consulting</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-semibold">Project Details *</label>
+                                    <textarea class="form-control" rows="4"
+                                        placeholder="Tell us about your project requirements, timeline, or budget..."
+                                        required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5 w-100">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="pb-5 bg-light">
+        <div class="container">
+            <div class="rounded-4 overflow-hidden shadow-sm border">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.039147951832!2d90.3654215!3d23.7470304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3fb%3A0x4a826f475fd312af!2sDhanmondi%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1700000000000"
+                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-primary mb-3">NextGen<span class="text-white">IT</span></h5>
+                    <p class="small text-secondary">Providing innovative web, software, and IT consulting solutions for
+                        startups and enterprises.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none">About Us</a>
+                        </li>
+                        <li class="mb-2"><a href="services.html"
+                                class="text-secondary text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="portfolio.html"
+                                class="text-secondary text-decoration-none">Portfolio</a></li>
+                        <li class="mb-2"><a href="pricing.html" class="text-secondary text-decoration-none">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="small text-secondary mb-1"><i class="bi bi-geo-alt me-2"></i>Dhaka, Bangladesh</p>
+                    <p class="small text-secondary mb-1"><i class="bi bi-envelope me-2"></i>info@nextgenit.com</p>
+                    <p class="small text-secondary"><i class="bi bi-telephone me-2"></i>+880 1700-000000</p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center small text-secondary">
+                &copy; 2026 Zahanara Khatun. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS & Form Handling -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            document.getElementById('formAlert').classList.remove('d-none');
+            this.reset();
+        });
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
